@@ -11,4 +11,4 @@
 
 A short library to implement a Y combinator, defined as:
 
-$$\lambda{f}.(\lambda{x}(xx))(\lambda{x}(xx))$$
+$$\lambda{f}.(\lambda{x}.f(xx))(\lambda{x}.f(xx))$$
