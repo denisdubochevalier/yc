@@ -7,7 +7,7 @@ import (
 )
 
 func ExampleY() {
-	fact := yc.Y[int](func(f yc.Function[int]) yc.Function[int] {
+	fact := yc.Y(func(f yc.Function[int]) yc.Function[int] {
 		return func(x int) int {
 			if x <= 0 {
 				return 1
