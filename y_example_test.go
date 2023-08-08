@@ -3,7 +3,7 @@ package yc_test
 import (
 	"fmt"
 
-	"yc"
+	"github.com/denisdubochevalier/yc"
 )
 
 func ExampleY() {
